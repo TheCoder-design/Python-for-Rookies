@@ -4,7 +4,7 @@ movie_title = []
 movie_rating = []
 movie_genre = []
 valid_genre = ["Action", "Comedy", "Drama", "Horror", "Sci-Fi", "Documentary"]
-print(f" Valid genres : {", ".join(valid_genre)}")
+print(f" Valid genres : {', '.join(valid_genre)}")
 
 # Introction message to the user
 collecting_data = True
@@ -38,7 +38,7 @@ while collecting_data:
         if genre in valid_genre:
             break
         else:
-            print(f" Please choose from: {", ".join(valid_genre)}")
+            print(f" Please choose from: {', '.join(valid_genre)}")
     
     movie_title.append(title)
     movie_rating.append(rating)

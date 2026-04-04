@@ -39,7 +39,7 @@ def main():
     total_average = 0
     for student in students:
         print(f"{student['name']}       {student['average']:.1f}           {student['grade']}")
-    total_average += student['average']
+        total_average += student['average']
     print("\n")
 
     # Display and Calculation of the Class average
